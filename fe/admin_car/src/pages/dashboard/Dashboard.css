@@ -1,0 +1,81 @@
+.paddingall {
+    padding: 10px 10px 10px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.paddingall:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+}
+
+.pricetitle {
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.pricetitle:hover {
+    color: #4caf50;
+    transform: rotate(5deg); /* Hiệu ứng xoay khi hover */
+}
+
+.pricesubtitle {
+    font-size: 14px;
+}
+
+.iconstyle {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    color: aliceblue;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.iconstyle:hover {
+    color: #4caf50;
+    transform: scale(1.1); /* Hiệu ứng phóng to khi hover */
+}
+
+.iconstyleblack {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.iconstyleblack:hover {
+    color: #000;
+    transform: scale(1.1); /* Hiệu ứng phóng to khi hover */
+}
+
+.gradient {
+    background: rgb(40, 34, 70) !important;
+    background: linear-gradient(158deg, rgba(40, 34, 70, 1) 0%, rgba(30, 47, 141, 1) 100%) !important;
+    transition: box-shadow 0.3s ease;
+}
+
+.gradient:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px); /* Hiệu ứng nhấn xuống khi hover */
+}
+
+.gradientlight {
+    background: rgb(53, 138, 148) !important;
+    background: linear-gradient(158deg, rgba(53, 138, 148, 1) 0%, rgba(91, 180, 96, 1) 100%) !important;
+    transition: box-shadow 0.3s ease;
+}
+
+.gradientlight:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px); /* Hiệu ứng nhấn xuống khi hover */
+}
+
+.bgcolor {
+    min-height: 100vh;
+    background: #eceff1;
+    background: linear-gradient(158deg, rgb(224, 224, 224) 0%, rgba(233, 237, 254) 100%);
+    transition: box-shadow 0.3s ease;
+}
+
+.bgcolor:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
